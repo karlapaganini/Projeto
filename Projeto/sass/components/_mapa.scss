@@ -1,0 +1,30 @@
+.mapa{
+    background-color: red;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 -15px -25px -15px;
+}
+.mapa iframe{
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@media(min-width: 450px){
+    .mapa{
+        padding-bottom: 60%;
+    }
+}
+@media(min-width: $breakpoint-md){
+    .mapa{
+        padding-bottom: 40%;
+  }
+  @media(min-width: $breakpoint-lg){
+    .mapa{
+        padding-bottom: 25%;
+    }
+  }
+}
